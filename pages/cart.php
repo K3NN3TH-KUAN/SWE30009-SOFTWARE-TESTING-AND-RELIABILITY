@@ -118,7 +118,7 @@ $backToMenuUrl = 'menu.php' . (!empty($backParams) ? '?' . http_build_query($bac
                                     <td>
                                         <div class="item-details">
                                             <img src="<?= htmlspecialchars($order['item']['img']) ?>" alt="<?= htmlspecialchars($order['item']['name']) ?>" class="item-thumb" />
-                                            <div>
+                                            <div class="item-name">
                                                 <strong><?= htmlspecialchars($order['item']['name']) ?></strong>
                                                 <?php if (!empty($order['remarks'])): ?>
                                                     <br><small class="remarks">Note: <?= htmlspecialchars($order['remarks']) ?></small>
